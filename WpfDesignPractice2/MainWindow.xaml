@@ -1,0 +1,79 @@
+﻿<Window x:Class="WpfDesignPractice2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDesignPractice2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="230" Width="400">
+    <Grid Cursor="">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+
+        <TextBlock Grid.Row="0" Grid.Column="0"  
+               Text="1 Стиль текста"
+               Margin="0"
+               HorizontalAlignment="Center"
+               Style="{StaticResource H1Style}"/>
+
+        
+
+        <TextBlock Grid.Row="1" 
+               Grid.Column="0" 
+               Text="2 Cтиль текста" 
+               Margin="2"
+               HorizontalAlignment="Center"
+               Style="{StaticResource BodyTextStyle}"/>
+        <TextBox Grid.Row="0" 
+                   Grid.Column="1"  
+                   Text="1 анимация TEXtBOX" 
+                   Margin="2"
+                   HorizontalAlignment="Center"
+                   Style="{StaticResource ModernTextBox}"/>
+
+        
+
+        <Button Grid.Row="2" 
+               Grid.Column="0"
+               Content="1 стиль для кнопки"
+               Margin="2"
+               HorizontalAlignment="Center"
+               Style="{StaticResource ButtonPrimary}"/>
+        
+        <Button Grid.Row="2" 
+               Grid.Column="1" 
+               Content="1 анимация для кнопки" 
+               Margin="2"
+               HorizontalAlignment="Center"
+               Style="{StaticResource InteractiveButton1}"/>
+
+        <Button Grid.Row="3" 
+               Grid.Column="0" 
+               Content="2 стиль для кнопки" 
+               Margin="2"
+               HorizontalAlignment="Center"
+               Style="{StaticResource ButtonSecondary}"/>
+
+        <Button Grid.Row="3" 
+       Grid.Column="1" 
+       Content="2 анимация для кнопки" 
+       Margin="2"
+       HorizontalAlignment="Center"
+       Style="{StaticResource InteractiveButton2}"/>
+
+
+
+    </Grid>
+</Window>
