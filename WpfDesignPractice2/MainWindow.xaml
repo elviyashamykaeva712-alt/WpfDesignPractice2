@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfDesignPractice2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="230" Width="400">
+        Title="MainWindow Моя пр4" Height="230" Width="400">
     <Grid Cursor="">
         
         <Grid.RowDefinitions>
